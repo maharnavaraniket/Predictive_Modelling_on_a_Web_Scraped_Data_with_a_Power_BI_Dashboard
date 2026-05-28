@@ -55,8 +55,6 @@ Raw Dataset → Data Cleaning → Exploratory Data Analysis → Customer Segment
 * Real-time Transaction Monitoring
 
 
-PROJECT STRUCTER
-'''
 financial-risk-analysis-python/
 │
 ├── data/
@@ -90,5 +88,3 @@ financial-risk-analysis-python/
 │
 ├── README.md
 ├── requirements.txt
-
-'''
