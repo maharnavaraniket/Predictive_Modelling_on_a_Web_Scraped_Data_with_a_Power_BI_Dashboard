@@ -55,36 +55,4 @@ Raw Dataset → Data Cleaning → Exploratory Data Analysis → Customer Segment
 * Real-time Transaction Monitoring
 
 
-financial-risk-analysis-python/
-│
-├── data/
-│   ├── raw_financial_data.csv
-│   ├── cleaned_financial_data.csv
-│
-├── notebooks/
-│   ├── financial_risk_analysis.ipynb
-│
-├── scripts
-│   ├── data_cleaning.py
-│   ├── segmentation_analysis.py
-│   ├── anomaly_detection.py
-│   ├── hypothesis_testing.py
-│   ├── visualization_dashboard.py
-│
-├── Dashboard
-│   ├──  dashboard_page1_overview.png
-│   ├──  dashboard_page2_risk.png
-│   ├──  dashboard_page3_summary.png
-│   ├──  financial_risk_dashboard.py	
-├── images
-│   ├── credit_vs_debit_trend.png
-│   ├── Risk_score VS Transtaion_amount.PNG
-│   ├── Transcation_by_region.PNG
-│ 
-├── logs/report
-│   ├── cleaning_steps.txt
-│   ├── project_report.pdf
-│ 
-│
-├── README.md
-├── requirements.txt
+
