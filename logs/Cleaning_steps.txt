@@ -1,0 +1,33 @@
+# Data Cleaning Steps
+
+The following preprocessing steps were performed to prepare the customer transaction dataset for financial risk analysis:
+
+1. Missing Value Handling
+
+* Checked for null and missing values in transaction amount, account balance, account type, and transaction category fields.
+* Missing numerical values were treated using mean/median methods where required.
+
+2. Data Type Conversion
+
+* Converted transaction amounts and account balances into numeric format.
+* Converted transaction date columns into datetime format for time-series analysis.
+
+3. Duplicate Removal
+
+* Removed duplicate transaction records to avoid incorrect analysis and bias.
+
+4. Category Standardization
+
+* Standardized account types and transaction categories (Debit/Credit) to maintain consistency.
+
+5. Outlier Checking
+
+* Applied statistical techniques such as IQR and Z-score to identify suspicious or abnormal transactions.
+
+6. Feature Preparation
+
+* Created additional metrics such as transaction frequency, overdraft counts, average balance, and customer activity levels for risk assessment.
+
+7. Data Validation
+
+* Verified cleaned data for consistency and correctness before visualization and analysis.
